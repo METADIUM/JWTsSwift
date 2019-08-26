@@ -1,7 +1,7 @@
 use_frameworks!
 
+pod 'secp256k1_swift'
+
 target 'JWTsSwift_Tests' do
   pod 'JWTsSwift', :path => '../'
-  
-  
 end

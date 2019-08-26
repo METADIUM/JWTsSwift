@@ -39,5 +39,6 @@ JWS and JWT Swift Library. Supported only secp256k1(ES256K)
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # Pods for JWTS
-  s.frameworks = 'secp256k1_swift'
+  s.dependency 'secp256k1_swift'
+  
 end
