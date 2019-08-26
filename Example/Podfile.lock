@@ -1,0 +1,23 @@
+PODS:
+  - JWTsSwift (0.1.0):
+    - secp256k1_swift
+  - secp256k1_swift (1.0.3)
+
+DEPENDENCIES:
+  - JWTsSwift (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - secp256k1_swift
+
+EXTERNAL SOURCES:
+  JWTsSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JWTsSwift: f5b1a0bdc0243081d7f6fdb389e2c8e068e30a42
+  secp256k1_swift: 4fc5c4b2d2c6d21ee8ccb868cdc92da12f38bed9
+
+PODFILE CHECKSUM: 42fed9e7dabc9c732e48e124f0993ebcb83b0cca
+
+COCOAPODS: 1.7.5
