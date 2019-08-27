@@ -13,7 +13,7 @@ import Foundation
 public class JWT {
     
     /// claims of JWT
-    var claims: [String: Any]
+    public var claims: [String: Any]
     
     
     /// init with cliams dictionary
