@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JWTsSwift'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'JWS and JWT Swift Library. Supported only secp256k1(ES256K)'
 
 # This description is used to generate tags and improve search results.
