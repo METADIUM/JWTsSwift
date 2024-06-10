@@ -28,9 +28,9 @@ JWS and JWT Swift Library. Supported only secp256k1(ES256K)
   s.source           = { :git => 'https://github.com/METADIUM/JWTsSwift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '12.0'
 
-  s.source_files = 'JWTsSwift/Classes/**/*'
+  s.source_files = 'Sources/JWTsSwift/Classes/**/*'
   
   # s.resource_bundles = {
   #   'JWTsSwift' => ['JWTsSwift/Assets/*.png']
@@ -39,6 +39,6 @@ JWS and JWT Swift Library. Supported only secp256k1(ES256K)
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # Pods for JWTS
-  s.dependency 'secp256k1_swift'
+  s.dependency 'secp256k1.swift'
   
 end
