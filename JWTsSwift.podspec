@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JWTsSwift'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'JWS and JWT Swift Library. Supported only secp256k1(ES256K)'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ JWS and JWT Swift Library. Supported only secp256k1(ES256K)
   s.source           = { :git => 'https://github.com/METADIUM/JWTsSwift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '15.0'
 
   s.source_files = 'Sources/JWTsSwift/Classes/**/*'
   
@@ -39,6 +39,6 @@ JWS and JWT Swift Library. Supported only secp256k1(ES256K)
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # Pods for JWTS
-  s.dependency 'secp256k1.swift'
+  s.dependency 'web3swift'
   
 end

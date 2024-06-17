@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "JWTsSwift",
+    platforms: [.iOS(.v15)],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
@@ -12,7 +13,7 @@ let package = Package(
             targets: ["JWTsSwift"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Boilertalk/secp256k1.swift", .upToNextMajor(from: "0.1.7"))
+        .package(url: "https://github.com/web3swift-team/web3swift.git", .upToNextMajor(from: "3.0.0"))
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -20,7 +21,7 @@ let package = Package(
         .target(
             name: "JWTsSwift",
             dependencies: [
-                .product(name: "secp256k1", package: "secp256k1.swift")
+                .product(name: "web3swift", package: "Web3swift")
             ]),
 
         .testTarget(
